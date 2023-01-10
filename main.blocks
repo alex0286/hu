@@ -1,0 +1,31 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="PZVh1Y[$@SEGrAG4+o8N" x="0" y="0"></block><block type="device_forever" id="TrG(IhpkOWRa4$(~zijn" x="205" y="0"><statement name="HANDLER"><block type="controls_if" id="#XCU`py%C15y}e.w}9gE"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="deviceisgesture" id="~;Ed8ug*{I#tW:|;,sfo"><field name="gesture">Gesture.Shake</field></block></value><statement name="DO0"><block type="device_start_melody" id="p,4=uYl?KL#h({8_wkp)"><field name="options">MelodyOptions.Once</field><value name="melody"><block type="device_builtin_melody" id="H;Ann,vu4Mca!Jm]X$H3"><field name="melody">Melodies.Wawawawaa</field></block></value><next><block type="device_show_leds" id="bK)*OKLhh*9,L*QQ53DO"><field name="LEDS">`
+        . # . # . 
+        # # . # # 
+        . . . . . 
+        . . # . . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="^vI.ARX)e4doWH):ntU]"><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        . . . . . 
+        . . # . . 
+        . # . # .
+        `</field><next><block type="device_show_leds" id="kHG_6JsPmYF#4@pkW!54"><field name="LEDS">`
+        . . . . . 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field><next><block type="device_show_leds" id=")HB1c3|Gu+*K~^Wt%OyH"><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></next></block></next></block></next></block></next></block></statement><statement name="ELSE"><block type="device_show_leds" id="a]hyCm)rRWORjVQkS(fP"><field name="LEDS">`
+        # . . . # 
+        # # . # # 
+        . . . . . 
+        . # # # . 
+        # . . . #
+        `</field></block></statement></block></statement></block></xml>
